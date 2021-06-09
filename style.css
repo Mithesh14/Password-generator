@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+.pw-container {
+    background: white;
+    box-shadow: 0 8px 14px black;
+    opacity: 75%;
+    min-width: 500px;
+}
+
+.pw-header {
+    padding: 1rem;
+}
+
+.pw {
+    background-color: black;
+    display: flex;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.5rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.pw button {
+    background-color: white;
+    border: none;
+    color: rgb(29, 2, 56);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+}
+
+.pw:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.pw-body {
+    padding: 0 1rem 1rem;
+}
+
+.form-control {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 599;
+    letter-spacing: 0.15rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate {
+    color: white;
+    background-color: #d43f3f;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    font-family: "myFirstFont"; 
+    padding: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.generate:hover
+{
+    transition-delay: 0.1s;
+    font-size: 1.7rem;
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    height: 3.5px;
+    margin-top: 0.5rem;
+    background-color: #000000;
+    border-radius: 3.5px;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #d43f3f;
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: "myFirstFont"; 
+    src: url("font/ticking-timebomb-bb.regular.ttf"); 
+}
