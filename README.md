@@ -1,5 +1,6 @@
 # Password-generator
-
+### WEBSITE
+<a href="https://mithesh14.github.io/Password-generator/">Password generator</a>
 ### SCREENSHOTS
 ![screenshots](https://github.com/Mithesh14/Password-generator/blob/main/images/image1.jpg)
 ![screenshots](https://github.com/Mithesh14/Password-generator/blob/main/images/image2.jpg)
