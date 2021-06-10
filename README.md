@@ -1,4 +1,5 @@
 # Password generator
+✏️ This is a simple password generator which generates the password randomly according to the constraints applied by the user such as the size and type of character ❗
 # WEBSITE
 <a href="https://mithesh14.github.io/Password-generator/">Password generator</a>
 # Screenshots and working explained
